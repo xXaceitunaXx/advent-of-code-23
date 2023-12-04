@@ -16,7 +16,7 @@ def possible(sets) -> bool:
     )
 
 
-data = open(r"./DayTwo/day2.in")
+data = open(r"./Day2/day2.in")
 result = 0
 for line in list(map(lambda x: x.strip(), data.readlines())):
     game, sets = line.split(":")

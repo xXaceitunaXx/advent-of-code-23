@@ -60,7 +60,7 @@ acceptedStrings = [
     "8",
     "9",
 ]
-data = open(r"./DayOne/day1.in")
+data = open(r"./Day1/day1.in")
 result = 0
 for line in list(map(lambda x: x.strip(), data.readlines())):
     result += findCode(line)
